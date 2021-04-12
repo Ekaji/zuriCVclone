@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.cv-container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    width: 90vw;
+}
+.contact{
+    width: 25vw;
+}
+.contact > h3 {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 35px;
+    margin-top: 15rem;
+    color: #2a0a5e;
+    text-align: center;
+}
+.contact-info{
+    background-color: #456fdc;
+    color: white;
+    height: 180vh;
+    text-align: center;
+}
+.contact-info > h2{
+    padding-top: 3rem;
+    width: 100px;
+    letter-spacing: 5px;
+    margin: 0px auto 20px;
+}
+.contact-info > hr{
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.phone, .email, .web, .github{
+    margin: 1rem;
+}
+.info{
+    width: 65vw;
+    margin: 1rem;
+}
+.info > b{
+    font-size: 100px;
+}
+
+hr{
+    border: none;
+    border-bottom: 3px solid #2a0a5e ;
+}
+
+.info > h1, b,
+.projects > h2,
+hr, h3, h4{
+    color: #2a0a5e;
+}
+
+.info, 
+.projects {
+    margin-right: 5rem;
+}
+
+.projects > h4 {
+    font-size: 20px;
+}
+
+.projects > p{
+    display: inline-block;
+    margin: 0px;
+}
+
+.projects > p, 
+.info > p, 
+.info > h3 {
+    font-size: 25px;
+}
